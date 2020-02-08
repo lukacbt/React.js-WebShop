@@ -1,0 +1,145 @@
+#basketCenter{
+    margin: 0 auto;
+    border: 2px solid #202042;
+    min-height: 200px;
+    text-align: center;
+    max-width: 90%;
+    padding: 10px 0 30px 0;
+}
+
+#basketProduct{
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 80%;
+    text-align: left;
+    border: 1px solid #202042;
+
+}
+
+#imgBasket{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 0 20px 0 0;
+    border: 1px solid #202042;
+    background-color: white;
+}
+
+#imgBasket img{
+    width: 100%;
+}
+
+#infoBasket{
+    line-height: 28px;
+    font-size: 18px;
+    color: #202042;
+    display: inline-block;
+    height: 150px;
+}
+
+#basketProduct input{
+    width: 35px;
+}
+
+#removeBtn{
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: red;
+    border: 1px solid red;
+}
+
+#removeBtn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: whitesmoke;
+    transition: all ease-in .1s;
+}
+
+.line{
+    height: 1px;
+    margin: 20px;
+    background-color: #202042;
+}
+
+#submitCouponBtn:hover{
+    cursor: pointer;
+}
+
+#couponX{
+    color: red;
+}
+
+#couponX:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#enterCoupon{
+    text-align: left;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#error{
+    line-height: 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: red;
+}
+
+#delivery{
+    width: 30px;
+}
+
+#continue{
+    color: #232323;
+    padding: 10px 20px;
+    border: 1px solid #232323;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+#continue:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #232323;
+    transition: all ease-in .2s;
+}
+
+#priceText{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#checkoutBtn{
+    padding: 10px 20px;
+    border: 0;
+    background-color: whitesmoke;
+    color: #202042;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px #202042 solid;
+}
+
+#checkoutBtn:hover{
+    background-color: #202042;
+    color: whitesmoke;
+    border: 1px solid #202042;
+    cursor: pointer;
+    transition: all ease-in .2s;
+}
+
+#checkoutDiv{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
